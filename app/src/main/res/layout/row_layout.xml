@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="40dp"
+
+    android:background="@color/colorAccent">
+
+    <TextView
+        android:id="@+id/viewFood"
+        android:layout_width="63dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="Food"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+        android:textColor="#000" />
+
+    <TextView
+        android:id="@+id/viewDesc"
+        android:layout_width="136dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="Description"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+        android:textColor="#000" />
+
+    <TextView
+        android:id="@+id/viewPrice"
+        android:layout_width="75dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="Price"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+        android:textColor="#000" />
+
+    <RatingBar
+        android:id="@+id/ratingsBar"
+        android:layout_width="259dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:scaleX="0.5"
+        android:scaleY="0.5"
+        android:transformPivotX="0dp"
+        android:transformPivotY="0dp"
+
+        />
+
+
+</LinearLayout>
